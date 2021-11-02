@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5_2020", "lab5_2020\lab5_2020.csproj", "{02162171-7390-41C6-9539-B8D179F41582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5_2018", "lab5_2018\lab5_2018.csproj", "{972D77E7-3C6B-416B-8FAB-BA1117A6F4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5_2017", "lab5_2017\lab5_2017.csproj", "{16950CB4-B1E0-4CD5-8438-E30B77053BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02162171-7390-41C6-9539-B8D179F41582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02162171-7390-41C6-9539-B8D179F41582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02162171-7390-41C6-9539-B8D179F41582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02162171-7390-41C6-9539-B8D179F41582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972D77E7-3C6B-416B-8FAB-BA1117A6F4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D77E7-3C6B-416B-8FAB-BA1117A6F4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D77E7-3C6B-416B-8FAB-BA1117A6F4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D77E7-3C6B-416B-8FAB-BA1117A6F4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16950CB4-B1E0-4CD5-8438-E30B77053BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16950CB4-B1E0-4CD5-8438-E30B77053BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16950CB4-B1E0-4CD5-8438-E30B77053BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16950CB4-B1E0-4CD5-8438-E30B77053BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {320348E8-6594-422F-922A-0C3AF48DDFCE}
+	EndGlobalSection
+EndGlobal

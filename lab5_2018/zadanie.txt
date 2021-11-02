@@ -1,0 +1,40 @@
+﻿Zadanie polega na napisaniu prostej biblioteki do operacji na macierzach.
+
+Etap 1 (2 punkty)
+
+a) Stworzyć abstrakcyjną klasę Matrix z następującymi składowymi:
+	- publiczne pola Rows (liczba wierszy) i Columns (liczba kolumn)
+	- konstruktor z 3 parametrami
+		-int rows - liczba wierszy
+		-int columns - liczba kolumn
+		-dwuwymiarowa tablica obiektów typu double zawierająca wartości elementów macierzy
+		-konstruktor powinien ustawiać wartości pól Rows i Columns klasy oraz przeprowadzać sprawdzenie poprawności
+		 parametrów - dla błędnych parametrów ustawia Rows = Columns = -1 i kończy działanie
+	- abstrakcyjna metoda GetValue z parametrami int row i int column zwracająca obiekt typu double.
+	  Zaimplementowana metoda w klasach pochadnych będzie zwracała wartość elementu macierzy.
+	- abstrakcyjna metoda SetValue z parametrami int row, int column i double value.
+	  Zaimplementowana metoda w klasach pochodnych będzie ustawiała nową wartość elementu marzierzy
+	- metoda Print wypisująca elementy macierzy
+
+b) Stworzyć klasę ArrayMatrix, która jest pochodną klasy Matrix i implementuje wszystkie jej składowe.
+   Konstruktor klasy ArrayMatrix ma te same parametry jak konstruktor klasy Matrix.
+   W tej klasie elementy powinny być przechowywane w dwuwymiarowej tablicy. Można definiować inne prywatne pola i metody,
+   ale nie jest to konieczne.
+
+Etap 2 (2 punkty)
+
+c) Stworzyć klasę TriangleMatrix pochodną klasy Matrix. Klasa będzie służyła do przechowywania macierzy trójkątnych dolnych.
+   W implementacji nie przechowujemy elementów ponad główną przekątną.
+   Wszystkie elementy pod główną przekątną i na niej można przechowywać na przykład za pomocą tablicy tablic
+   o rosnącej długości elementów
+
+   Uwaga: Klasa TriangleMatrix ma inne parametry konstruktora: int size (rozmiar macierzy) oraz dwuwymiarową tablicę
+          obiektów typu double zawierająca wartości elementów macierzy. Konstruktor powinien ignorować elementy
+          ponad główną przekątną w tablicy wartości
+   Uwaga: W tym etapie pozostawiamy pustą implementację metody SetValue
+
+Etap 3 (1 punkt)
+
+d) Zaimplementować metodę SetValue dla klasy TriangleMatrix. Metoda ustawia wartości tylko dla elementów poniżej
+   głównej przekątnej lub na niej - dla próby ustawieniea nowej wartości pozostałych elementów nic się nie dzieje
+   
